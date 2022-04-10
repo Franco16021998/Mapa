@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+  }
+  
+  .badge .leaflet-popup-close-button,
+  .badge .leaflet-popup-tip-container {
+    display: none;
+  }
+  
+  .badge .leaflet-popup-content-wrapper,
+  .badge .leaflet-popup-tip {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .badge .leaflet-popup-content {
+    position: absolute;
+    top: -5px;
+    left: -12px;
+    z-index: 10;
+    min-width: 20px;
+    width: 5px !important;
+    height: 20px;
+    padding: 0;
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-align: center;
+    background: #f5222d;
+    border-radius: 10px;
+    /* optionally add a box shadow
+     -webkit-box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #fff; */
+  }
+  
